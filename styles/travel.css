@@ -154,15 +154,27 @@ button {
 /* row two */
 .row-two{
     display: flex;
-    gap: 19px;
+    gap: 20px;
     margin-top: 15px;
-    /* border: 2px solid red; */
-   /*  max-height: 250px;
-    height: 25%;
-    margin: 19px 0px; */
+    margin-bottom: 0px;
+
+}
+.row-two .img img{
+    width: 100%;   
+}
+.row-two .img{
+    position: relative;
+}
+.row-two .img-text p{
+    font-size: 100%;
+    color: #FFF;
+    font-weight: 800;
+    position: absolute;
+    bottom: 48%;
+    left: 41%;
 }
 
-.row-two .img-one{
+/* .row-two .img-one{
     width: 30%;
     position: relative;
     
@@ -179,8 +191,13 @@ button {
 .row-two .img-two img,
 .row-two .img-three img{
     width: 100%;
-    height: 90%;
+    height: 95%;
 }
+
+
+
+
+
 .row-two .img-text p,
 .row-two .img-text p,
 .row-two .img-text p{
@@ -190,6 +207,17 @@ button {
     position: absolute;
     bottom: 48%;
     left: 41%;
+} */
+
+/* row three */
+.row-three{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.row-three .img-one img,
+.row-three .img-two img{
+    width: 100%;
 }
 
 

@@ -11,7 +11,8 @@
     .banner-container .banner-input .input,
     .popular,
     .row-one,
-    .row-two {
+    .row-two,
+    .row-three {
         flex-direction: column;
         gap: 10px;
     }
@@ -22,7 +23,7 @@
         max-width: 90%;
 
     }
-
+    
 
 
 
@@ -39,6 +40,7 @@
         width: 100%;
        
     }
+   
 
 
 
