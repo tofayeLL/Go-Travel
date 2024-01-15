@@ -15,9 +15,17 @@
     
     /* border: 2px solid palegreen; */
 }
+main section{
+    margin-top: 100px;
+}
+h3{
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
 
 p {
-    color: #FFF;
+    color: rgba(19, 19, 24, 0.70);
     font-size: 13px;
     font-weight: 400;
 }
@@ -61,6 +69,10 @@ button {
     font-weight: 800;
     margin-bottom: 19px;
 }
+.banner-container .banner-text p{
+    color: #FFF;
+
+}
 
 .banner-container .banner-input {
     border-radius: 8px;
@@ -81,7 +93,7 @@ button {
 .banner-container .banner-input .input input{
     width: 22%;
     font-size: 13px;
-    padding: 10px;
+    padding: 13px;
     font-weight: 700;
     border-radius: 8px;
     background-color: #FFF;
@@ -90,7 +102,31 @@ button {
 }
 .banner-container .banner-input .input button{
     width: 22%;
-    padding: 10px 28px;
+    padding: 13px 28px;
 }
+
+/* popular section related styles */
+
+
+.popular{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.popular .text-section{
+    width: 50%;
+}
+.popular .text-section p{
+    margin: 20px 0px;
+}
+.popular .img-section{
+    width: 50%;
+}
+.popular .img-section img{
+    width: 100%;
+}
+
+
 
 
