@@ -10,7 +10,8 @@
 
     .banner-container .banner-input .input,
     .popular,
-    .row-one {
+    .row-one,
+    .row-two {
         flex-direction: column;
         gap: 10px;
     }
@@ -25,15 +26,21 @@
 
 
 
-   
+
 
     .banner-container .banner-input .input button,
     .banner-container .banner-input .input input,
     .popular .text-section,
     .popular .img-section,
-    .row-one .img {
+    .row-one .img,
+    .row-two .img-one,
+    .row-two .img-two,
+    .row-two .img-three {
         width: 100%;
+       
     }
+
+
 
     .banner-container .banner-text h3 {
         font-size: 30px;
