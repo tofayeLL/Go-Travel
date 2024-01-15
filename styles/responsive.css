@@ -9,7 +9,8 @@
 
 
     .banner-container .banner-input .input,
-    .popular {
+    .popular,
+    .row-one {
         flex-direction: column;
         gap: 10px;
     }
@@ -29,7 +30,8 @@
     .banner-container .banner-input .input button,
     .banner-container .banner-input .input input,
     .popular .text-section,
-    .popular .img-section {
+    .popular .img-section,
+    .row-one .img {
         width: 100%;
     }
 

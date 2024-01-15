@@ -128,5 +128,29 @@ button {
 }
 
 
+/* Destination related styles */
+
+.row-one{
+    display: flex;
+    gap: 19px;
+}
+.row-one .img img{
+    width: 100%;
+}
+.row-one .img {
+    width: 50%;
+    position: relative;
+}
+
+.img-text p{
+    font-size: 100%;
+    color: #FFF;
+    font-weight: 800;
+    position: absolute;
+    bottom: 48%;
+    left: 41%;
+}
+
+
 
 
