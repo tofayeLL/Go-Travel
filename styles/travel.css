@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800;900&display=swap');
+
+/* shared styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    width: 81%;
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 2px solid palegreen;
+}
+
+p {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+button {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 13px 28px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    border: none;
+}
+
+
+
+
+/* banner related styles */
+.banner {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png'), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.banner-container {
+    padding: 100px 0;
+}
+
+.banner-container .banner-text {
+    max-width: 54%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-container .banner-text h3 {
+    color: #FFF;
+    font-size: 51px;
+    font-weight: 800;
+    margin-bottom: 19px;
+}
+
+.banner-container .banner-input {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    max-width: 64%;
+    margin: 0 auto;
+    margin-top: 38px;
+    padding: 13px;
+}
+
+.banner-container .banner-input input {
+    max-width: 22%;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 13px;
+    padding: 13px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: #FFF;
+    border: none;
+    margin-right: 19px;
+}
