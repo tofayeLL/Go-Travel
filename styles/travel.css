@@ -11,8 +11,9 @@
 .container {
     width: 81%;
     max-width: 1170px;
-    margin: 0 auto;
-    border: 2px solid palegreen;
+    margin: 5px auto;
+    
+    /* border: 2px solid palegreen; */
 }
 
 p {
@@ -41,6 +42,7 @@ button {
     background-size: cover;
     background-position: center;
     border-radius: 16px;
+   
 }
 
 .banner-container {
@@ -69,15 +71,26 @@ button {
     padding: 13px;
 }
 
-.banner-container .banner-input input {
-    max-width: 22%;
-    margin: 0 auto;
-    color: rgba(19, 19, 24, 0.50);
+.banner-container .banner-input .input {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    
+}
+.banner-container .banner-input .input input{
+    width: 22%;
     font-size: 13px;
-    padding: 13px;
+    padding: 10px;
     font-weight: 700;
     border-radius: 8px;
     background-color: #FFF;
     border: none;
-    margin-right: 19px;
+
 }
+.banner-container .banner-input .input button{
+    width: 22%;
+    padding: 10px 28px;
+}
+
+
