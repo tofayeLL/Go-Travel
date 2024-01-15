@@ -12,18 +12,23 @@
     .popular,
     .row-one,
     .row-two,
-    .row-three {
+    .row-three,
+    .newsletter {
         flex-direction: column;
         gap: 10px;
     }
 
 
+    
+
+
     .banner-container .banner-text,
-    .banner-container .banner-input {
+    .banner-container .banner-input,
+    .choose-text-section {
         max-width: 90%;
 
     }
-    
+
 
 
 
@@ -36,16 +41,40 @@
     .row-one .img,
     .row-two .img-one,
     .row-two .img-two,
-    .row-two .img-three {
+    .row-two .img-three,
+    .row-one .card-one,
+    .row-one .card-two,
+    .row-two .card,
+    .newsletter-text,
+    .newsletter-img{
         width: 100%;
-       
+
     }
-   
+
+    .row-one .card {
+        margin-bottom: 10px;
+    }
+
+
 
 
 
     .banner-container .banner-text h3 {
         font-size: 30px;
+    }
+
+
+    .newsletter-img .badge{
+        padding: 12px 20px;
+        border-radius: 8px;
+    }
+
+
+    .newsletter-img .badge p{
+        font-size: 10px;
+    }
+    .newsletter-img .badge h4{
+        font-size: 12px;
     }
 
 
