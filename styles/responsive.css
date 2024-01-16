@@ -16,8 +16,8 @@
         margin-top: 40px;
     }
 
- 
-   
+
+
     .banner-container .banner-input .input,
     .popular,
     .row-one,
@@ -32,13 +32,15 @@
     .banner-container .banner-input,
     .choose-text-section,
     .destination-text,
-    .footer-container {
+    .footer-container,
+    .footer-text p {
         max-width: 90%;
 
     }
 
     .nav-text-left,
     .nav-text-right,
+    .banner-container .banner-input .input .select-box,
     .banner-container .banner-input .input button,
     .banner-container .banner-input .input input,
     .popular .text-section,
@@ -54,38 +56,46 @@
 
 
 
-    .banner-container .banner-text h3,
-    .clients-section .clients-text h3 {
-        font-size: 30px;
+    .banner-container .banner-text h3 {
+        font-size: 26px;
+    }
+
+    .popular .text-section h3,
+    .destination-text h3,
+    .clients-section .clients-text h3,
+    .choose-text-section h3 {
+        font-size: 24px;
     }
 
 
     /* nav hamburger icon added related styles */
-    
-    .nav-text-right .hamber{
+
+    .nav-text-right .hamber {
         display: block;
         width: 30%;
         margin-left: 91%;
         font-size: 26px;
-        
+
     }
-    .nav-text-right a{
+
+    .nav-text-right a {
         display: none;
     }
-    .nav{
+
+    .nav {
         display: flex;
         margin: 20px 0;
-        
+
     }
 
 
-    .nav-text-left h3{
+    .nav-text-left h3 {
         font-size: 20px;
     }
 
 
 
-    
+
     /* destination related responsive */
 
     .grid-container {
@@ -136,6 +146,7 @@
         grid-column: 1/span 1;
         grid-row: 7/span 1;
     }
+
 
     /* destination */
 
