@@ -49,6 +49,51 @@ button {
 
 
 
+
+/* nav related styles */
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin: 38px 0px;
+}
+
+.nav-text-left {
+    width: 50%;
+    border: 1px solid palegreen;
+}
+
+.nav-text-right {
+    width: 50%;
+    border: 2px solid palevioletred;
+}
+
+.nav-text-right {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-text-left {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+.nav-text-right a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-text-right a span {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+
+
 /* banner related styles */
 .banner {
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png'), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
@@ -395,6 +440,18 @@ footer {
 
 .footer-text p {
     margin: 16px 0px;
+}
+
+.footer-text h3 {
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text h3 span img {
+    width: 100%;
+
 }
 
 .footer-icon .icon {

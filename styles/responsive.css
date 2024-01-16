@@ -11,7 +11,7 @@
     }
 
 
-
+    .nav,
     .banner-container .banner-input .input,
     .popular,
     .row-one,
@@ -33,7 +33,8 @@
 
     }
 
-
+    .nav-text-left,
+    .nav-text-right,
     .banner-container .banner-input .input button,
     .banner-container .banner-input .input input,
     .popular .text-section,
