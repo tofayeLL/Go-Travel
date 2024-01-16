@@ -60,6 +60,31 @@
     }
 
 
+    /* nav hamburger icon added related styles */
+    
+    .nav-text-right .hamber{
+        display: block;
+        width: 30%;
+        margin-left: 91%;
+        font-size: 26px;
+        
+    }
+    .nav-text-right a{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        margin: 20px 0;
+        
+    }
+
+
+    .nav-text-left h3{
+        font-size: 20px;
+    }
+
+
+
     
     /* destination related responsive */
 
