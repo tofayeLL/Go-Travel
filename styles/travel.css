@@ -354,6 +354,8 @@ button {
 /* newsletter related design */
 .newsletter {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
@@ -362,14 +364,14 @@ button {
     background: #FFF;
     border-radius: 16px;
     border: 1px solid #FF5400;
-    padding: 30px 0px;
+    padding: 28px 0px;
 
 }
 
 .newsletter-form {
     width: 80%;
     margin: 10px auto;
-    gap: 30px;
+    gap: 28px;
     display: flex;
     flex-direction: column;
 
@@ -404,7 +406,7 @@ button {
     background: #FF5400;
     padding: 30px 44px;
     right: 1%;
-    bottom: 12%;
+    bottom: 11%;
     transform: rotate(-19.628deg);
 }
 
